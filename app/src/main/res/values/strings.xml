@@ -1,13 +1,11 @@
 <resources>
     <string name="app_name">TawseelaApp</string>
-    <string name="title_activity_maps_registeration">Map</string>
-    <string name="delivery_facility">delivery facility</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="login">تسجيل الدخول</string>
-    <string name="username">اسم المستخدم</string>
-    <string name="login_btn">الدخول</string>
-    <string name="here">هنا</string>
-    <string name="mobile_number">رقم الجوال</string>
-    <string name="reSend">إعادة الارسال</string>
+    <string-array name="itemspinner">
+        <item>شمال غزة</item>
+        <item>الوسطى</item>
+        <item>خان يونس</item>
+        <item>رفح</item>
+
+    </string-array>
+
 </resources>
