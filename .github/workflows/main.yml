@@ -24,13 +24,15 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        
       - name: GitHub Action for Android Lint
-          # You may pin to the exact commit or the version.
-          # uses: yutailang0119/action-android-lint@f297390fac50d965dd6905b89ea67214e6b30c7c
+        # You may pin to the exact commit or the version.
+        # uses: yutailang0119/action-android-lint@f297390fac50d965dd6905b89ea67214e6b30c7c
+          
       - uses: yutailang0119/action-android-lint@v1.0.2
-          with:
+            with :
             # The file path of the XML lint report produced by gradle
-            xml_path: 
+            xml_path :
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
