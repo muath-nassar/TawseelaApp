@@ -45,7 +45,21 @@ public class MahmoudClassForTesting {
                 "KALED BN ALWLEED","ALSNA MOSQUE");
         Assert.assertTrue(Boolean.parseBoolean(add));
     }
-
+    /*
+    @Test
+    public void activityLaunch() {
+        onView(withId(R.id.textview_login)).perform(click());
+        onView(withId(R.id.username_login))
+                .check(matches(isDisplayed()));
+        onView(withId(R.id.btn_logout)).perform(click());
+        onView(withId(R.id.password_login))
+                .check(matches(isDisplayed()));
+        onView(withId(R.id.nameOfdetail))
+                .check(matches(isDisplayed()));
+        onView(withId(R.id.detail))
+                .check(matches(isDisplayed()));
+    }
+    */
     @After
     public void afterMethod(){
 
