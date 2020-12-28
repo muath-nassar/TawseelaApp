@@ -1,5 +1,7 @@
 package com.muath.tawseelaapp;
 
+import android.content.Context;
+
 import com.muath.tawseelaapp.interfaces_mock_muath.MobileVerificationActivity;
 import com.muath.tawseelaapp.interfaces_mock_muath.Registration;
 
@@ -13,6 +15,7 @@ import org.mockito.Mock;
 
 @RunWith(MockitoJUnitRunner.class)
 public class MuathClassForTesting {
+
     @Mock
     MobileVerificationActivity activityMobileVerify;
     @Mock
@@ -33,6 +36,7 @@ public class MuathClassForTesting {
         boolean flag = registration.writeIdToSharedPreferences("123456789");
         Assert.assertTrue(flag);
     }
+
     @Test
     public void testNumbersCodeIs6(){
         boolean flag = activityMobileVerify.isAll6NumbersEntered(
