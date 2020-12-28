@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import interfaces_mock_mahmoud_tawseelaapp.DeleiveryDetails;
-import interfaces_mock_mahmoud_tawseelaapp.UserProfile;
+import com.muath.tawseelaapp.interfaces_mock_mahmoud.DeleiveryDetails;
+import com.muath.tawseelaapp.interfaces_mock_mahmoud.UserProfile;
 
 import static org.junit.Assert.assertEquals;
 

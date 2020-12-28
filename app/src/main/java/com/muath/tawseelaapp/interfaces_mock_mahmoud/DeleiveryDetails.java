@@ -1,4 +1,4 @@
-package interfaces_mock_mahmoud_tawseelaapp;
+package com.muath.tawseelaapp.interfaces_mock_mahmoud;
 
 public interface DeleiveryDetails {
     String address ="";

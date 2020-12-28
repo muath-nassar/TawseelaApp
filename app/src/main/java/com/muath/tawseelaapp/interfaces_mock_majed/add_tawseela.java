@@ -1,4 +1,4 @@
-package com.muath.tawseelaapp.interfaces_majed;
+package com.muath.tawseelaapp.interfaces_mock_majed;
 
 
 public interface add_tawseela {

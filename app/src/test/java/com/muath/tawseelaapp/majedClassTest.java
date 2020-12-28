@@ -1,7 +1,7 @@
 package com.muath.tawseelaapp;
 
 
-import com.muath.tawseelaapp.interfaces_majed.add_tawseela;
+import com.muath.tawseelaapp.interfaces_mock_majed.add_tawseela;
 
 import org.junit.Assert;
 import org.junit.Test;
