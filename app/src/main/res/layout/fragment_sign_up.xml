@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".muath.fragments.SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/registration_container"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kufi_bold"
+            android:text="تسجيل مستخدم جديد"
+            android:textColor="#FFD600"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layoutDirection="rtl"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            android:layout_marginBottom="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+            app:boxBackgroundColor="#F2F2F2"
+            app:boxStrokeColor="#FFAB00"
+            app:endIconMode="clear_text"
+            android:hint="@string/username"
+            app:startIconDrawable="@drawable/ic_baseline_account_box_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            app:endIconTint="@color/icon_list_change"
+            app:startIconTint="@color/icon_list_change"
+            app:helperTextEnabled="true"
+            app:helperText=" أحرف انجليزية صغيرة"
+            app:helperTextTextColor="#fff">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kufi_bold"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layoutDirection="rtl"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+            app:boxBackgroundColor="#F2F2F2"
+            app:boxStrokeColor="#FFAB00"
+            app:endIconMode="password_toggle"
+            android:hint="كلمة المرور"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            app:endIconTint="@color/icon_list_change"
+            app:startIconTint="@color/icon_list_change"
+            app:helperTextEnabled="true"
+            app:counterEnabled="true"
+            app:counterTextColor="@color/icon_list_change"
+            app:helperText="8 حروف على الأقل و رقم "
+            app:helperTextTextColor="#fff"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:inputType="textPassword"
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kufi_bold"
+                android:maxLines="1"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layoutDirection="rtl"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            android:layout_marginBottom="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+            app:boxBackgroundColor="#F2F2F2"
+            app:boxStrokeColor="#FFAB00"
+            app:endIconMode="clear_text"
+            android:hint="@string/mobile_number"
+            app:startIconDrawable="@drawable/ic_baseline_smartphone_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            app:endIconTint="@color/icon_list_change"
+            app:startIconTint="@color/icon_list_change"
+            android:layout_marginTop="10dp"
+            app:prefixText="+970"
+            app:helperTextEnabled="true"
+            app:counterEnabled="true"
+            app:helperText="جوال أو وطنية فقط"
+            app:helperTextTextColor="#fff"
+            app:counterMaxLength="9"
+            app:counterTextColor="@color/icon_list_change">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kufi_bold"
+                android:maxLines="1"
+                android:maxLength="9"
+                android:inputType="phone"
+                android:textColor="#000"
+                android:textSize="12sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="لديك حساب!! اضغط للدخول "
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/kufi_bold"
+                android:textSize="10sp"
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:id="@+id/btnClickLogin"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFB300"
+                android:fontFamily="@font/kufi_bold"
+                android:textSize="10sp"
+                android:clickable="true"
+                android:textAlignment="textStart"
+                android:text="@string/here"
+                android:focusable="true" />
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="التالي"
+            android:fontFamily="@font/kufi_bold"
+            android:backgroundTint="#FFFFAB00"
+            android:textColor="#5E35B1"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

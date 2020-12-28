@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "580466702492",
+    "project_id": "tawsila-app-1af3d",
+    "storage_bucket": "tawsila-app-1af3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580466702492:android:37d92e800d01c759315559",
+        "android_client_info": {
+          "package_name": "wn.it.dev.yasser.tawsila"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580466702492-1cdp50v1cs88o979j5t49r7kirg3ifvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXTLJq_F2q94To29BpMhnC6U9W_u_Prew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580466702492-1cdp50v1cs88o979j5t49r7kirg3ifvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
