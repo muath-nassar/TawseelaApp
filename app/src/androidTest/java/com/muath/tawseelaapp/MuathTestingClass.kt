@@ -29,6 +29,7 @@ class MuathTestingClass{
     @Test
     fun testRegistration() {
 
+
         // Context of the app under test.
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         // assertEquals("wn.it.dev.yasser.tawsila", context.packageName)
