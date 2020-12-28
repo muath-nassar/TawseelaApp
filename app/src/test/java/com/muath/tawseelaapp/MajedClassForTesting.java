@@ -11,7 +11,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
 
-public class majedClassTest {
+public class MajedClassForTesting {
 
     @Mock
     add_tawseela activityAdd_tawseela;
