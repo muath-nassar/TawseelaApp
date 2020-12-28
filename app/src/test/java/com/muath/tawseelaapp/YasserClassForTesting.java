@@ -27,11 +27,6 @@ public class YasserClassForTesting {
         System.out.println("Testing begins");
     }
 
-    @AfterClass
-    public static void tearDown(){
-        System.out.println("Testing ends");
-    }
-
     @Test
     public void testSharedPref(){
         String flag = chatActivity.sendNotifi(1, 2, "Hi");
@@ -39,7 +34,7 @@ public class YasserClassForTesting {
     }
 
     @Test
-    public void testContentTxtNotifi(){
+    public void testChat_sendNotifi(){
         String flag = chatActivity.sendNotifi(
                 1,
                 2,
@@ -48,11 +43,22 @@ public class YasserClassForTesting {
     }
 
     @Test
-    public void testContentTxtNotifi_WithErrorExpected(){
+    public void testChat_sendNotifi_WithErrorExpected(){
         String flag = chatActivity.sendNotifi(
                 1,
                 2,
                 "");
         Assert.assertTrue(Boolean.parseBoolean(flag));
+    }
+
+    @Test
+    public void testContentTxtNotifi(){
+        String flag = notificationActicity.txtNotifi("Hi");
+        Assert.assertTrue(Boolean.parseBoolean(flag));
+    }
+
+    @AfterClass
+    public static void tearDown(){
+        System.out.println("Testing ends");
     }
 }
