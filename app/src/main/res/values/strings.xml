@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TawseelaApp</string>
+    <string-array name="itemspinner">
+        <item>شمال غزة</item>
+        <item>الوسطى</item>
+        <item>خان يونس</item>
+        <item>رفح</item>
+
+    </string-array>
+
 </resources>
