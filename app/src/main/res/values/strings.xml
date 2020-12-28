@@ -1,20 +1,65 @@
 <resources>
     <string name="app_name">TawseelaApp</string>
-    <string-array name="itemspinner">
-        <item>شمال غزة</item>
-        <item>الوسطى</item>
-        <item>خان يونس</item>
-        <item>رفح</item>
 
+    <string name="general_error_message">error</string>
+
+    <string name="err_password" translatable="false">كلمة المرور على الاقل من ٦ حروف او أرقام</string>
+    <string name="err_email" translatable="false">ادخل البريد الالكتروني بشكل صحيح</string>
+    <string name="err_name" translatable="false">ادخل الاسم المستخدم بشكل صحيح</string>
+    <string name="err_title" translatable="false">الاسم غير صالح</string>
+    <string name="err_desc" translatable="false">الوصف غير صالح</string>
+    <string name="err_password_confirmation" translatable="false">كلمة المرور غير متطابقة</string>
+    <string name="err_phone" translatable="false">رقم الهاتف غير صالح</string>
+    <string name="err_date" translatable="false">نمط التاريخ dd-mm-yyyy</string>
+    <string name="invalid" translatable="false">غير صالح</string>
+    <string name="err_height" translatable="false">min=10, max=275</string>
+    <string name="err_weight" translatable="false">min=1, max=500</string>
+    <string name="err_code_number" translatable="false">الكود يحتوي على ٥ ارقام</string>
+    <string name="err_speed_tracked" translatable="false">ادخل قمية صحيحة</string>
+    <string name="err_empty" translatable="false">الحقل فارغ</string>
+    <string name="err_add_data" translatable="false">القيمة غير مدخلة</string>
+    <string name="err_add_price" translatable="false">أدخل سعر صالح</string>
+    <string name="error_resonse" translatable="false">يوجد خطا ما </string>
+    <string name="activate_account" translatable="false">تفعيل الحساب</string>
+    <string name="activiaion_code" translatable="false">كود التفعيل</string>
+    <string name="activaition_code" translatable="false">الرجاء إدخال الكود المرسل إلي الهاتف المدخل</string>
+    <string name="resend_code" translatable="false">إعادة إرسال الكود</string>
+    <string name="limit_exceeded_title" translatable="false">تجاوز الحد</string>
+    <string name="try_later_message" translatable="false">الرجاء المحاولة لاحقا , شكرا لك</string>
+    <string name="ok" translatable="false">موافق</string>
+    <string name="search_for_vehicles" translatable="false">البحث عن السيارات</string>
+    <string name="my_searches" translatable="false">عمليات البحث الخاصة بي</string>
+    <string name="my_favourite" translatable="false">مفضلتي</string>
+    <string name="ads" translatable="false">الإعلان</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_up">sign up</string>
+    <string name="password">password</string>
+    <string name="or">or</string>
+    <string name="google">google</string>
+    <string name="facebook">facebook</string>
+    <string name="have_account">have account?</string>
+    <string name="name">name</string>
+    <string name="signin_now">sign in</string>
+    <string name="forget_password">forget password</string>
+    <string name="remember_me">remember</string>
+    <string name="dont_have_account">don</string>
+    <string name="register_now">rigester now</string>
+    <string name="mobile_number">mobile number</string>
+    <string name="statistics">statistics</string>
+    <string name="home">home</string>
+    <string name="chats">chats</string>
+    <string-array name="type">
+        <item>إختيار نوع</item>
+        <item>الكل</item>
+        <item>اليومي</item>
     </string-array>
-    <string name="title_activity_maps_registeration">Map</string>
-    <string name="delivery_facility">delivery facility</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="country_name">
+        <item>العالم</item>
+        <item>مصر</item>
+        <item>السعودية</item>
+        <item>الإمارات</item>
+        <item>فلسطين</item>
+    </string-array>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="login">تسجيل الدخول</string>
-    <string name="username">اسم المستخدم</string>
-    <string name="login_btn">الدخول</string>
-    <string name="here">هنا</string>
-    <string name="mobile_number">رقم الجوال</string>
-    <string name="reSend">إعادة الارسال</string>
+
 </resources>
