@@ -5,10 +5,110 @@
     android:layout_height="match_parent"
     tools:context=".majed.AddRequestFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-         />
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/colorback"
+        tools:context=".AddStudentActivity">
+
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colortext"
+            android:layout_gravity="start"
+            android:padding="15dp"
+            android:fontFamily="@font/kufi_bold"
+            android:layout_marginTop="100dp"
+            android:textSize="24sp"
+            android:text="Name of the request" />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_custom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/big_vest_regular"
+            android:textSize="15sp"
+            android:inputType="textPersonName"
+            android:hint="Enter Name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colortext"
+            android:layout_gravity="start"
+            android:padding="15dp"
+            android:fontFamily="@font/kufi_bold"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:text="Producer pris" />
+
+
+
+        <EditText
+            android:id="@+id/txtPris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_custom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/big_vest_regular"
+            android:textSize="15sp"
+            android:hint="pris"
+            android:inputType="numberDecimal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <Button
+                android:id="@+id/btnAddloc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_custom"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/big_vest_regular"
+                android:textColor="@android:color/white"
+                android:text="locahsen" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_custom"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/big_vest_regular"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:text="Add" />
+
+        </LinearLayout>
+    </LinearLayout>
+
 
 </FrameLayout>

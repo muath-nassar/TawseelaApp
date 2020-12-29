@@ -34,7 +34,7 @@ class myAdapter (
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.tvName.text  =data[position].nameRequest
         holder.pris.text=data[position].prise.toString()
-        holder.time.text=data[position].time
+        holder.time.text=data[position].time.toString()
         holder.date.text=data[position].day
 
 
